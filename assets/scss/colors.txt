@@ -1,0 +1,6 @@
+Crema claro    f5efe7
+Crema oscuro   d1b486
+Morado claro   f0f1f9
+Morado oscuro  9aaad0
+Salmón claro   fdf3f2
+Salmón oscuro  f1b0aa
