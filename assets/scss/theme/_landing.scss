@@ -29,6 +29,18 @@
 		font-size: 1.2rem;
 	}
 
+	.headline-large {
+		font-size: 1.7rem;
+		font-weight: bold;
+		text-align: center;
+		//font-family: "Chalkduster", fantasy;
+	}
+
+	.subheadline-large {
+		font-size: 0.9rem;
+		text-align: justify;
+	}
+
 }
 
 .hero-quotes {
@@ -121,6 +133,24 @@
 		position: absolute;
 		right: 0rem;
 		top: -2rem;
+		width: 130px;
+		height: 130px;
+		background: $theme-color-badge;
+		@include border-radius(50%);
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		font-family: 'Quicksand', sans-serif;
+		padding-top: 40px;
+		font-size: 0.9rem;
+		line-height: 1;
+		font-weight: bold;
+	}
+
+	.book-badge-large {
+		position: absolute;
+		right: 0rem;
+		top: -3rem;
 		width: 130px;
 		height: 130px;
 		background: $theme-color-badge;
@@ -334,6 +364,7 @@
 		}
 
 	}
+
 	.book-cover-holder .book-badge {
 		width: 100px;
 		height: 100px;
