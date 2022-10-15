@@ -12,7 +12,12 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:700|Roboto:400,400i,700&display=swap" rel="stylesheet">
+
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/plugins/smoothscroll.min.js"></script>
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
+	<script src="assets/js/main.js"></script>
 
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 </head>
@@ -67,11 +72,30 @@
 						<!--//subheading-->
 
 						<div class="cta-holder row gx-md-3 gy-3 gy-md-0">
+							<!--
 							<div class="col-12 col-md-auto">
 								<a class="btn btn-primary w-100" href="#form-section">Avísame</br>cuando esté disponible</a>
 							</div>
+							-->
+
 							<div class="col-12 col-md-auto">
-								<a class="btn btn-secondary scrollto w-100" href="#form-section">eBook con</br>3 recetas exclusivas</a>
+								<div class="dropdown">
+									<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									  Reservar
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									  <a class="dropdown-item" href="https://www.amazon.es/dp/8441546797" target="_blank">Amazon (papel)</a>
+									  <a class="dropdown-item" href="https://www.amazon.es/Cocina-para-todos-Mycook-singulares-ebook/dp/B0BH585VJQ/" target="_blank">Amazon (kindle)</a>
+									  <a class="dropdown-item" href="https://www.casadellibro.com/libro-cocina-para-todos-con-mycook/9788441546790/13281256" target="_blank">La casa del libro</a>
+									  <a class="dropdown-item" href="https://www.fnac.es/SearchResult/ResultList.aspx?SCat=0%211&amp;Search=9788441546790&amp;sft=1&amp;sa=0" target="_blank">Fnac</a>
+									  <a class="dropdown-item" href="https://www.todostuslibros.com/libros/cocina-para-todos-con-mycook_978-84-415-4679-0" target="_blank">Todos tus libros</a>
+									  <a class="dropdown-item" href="https://www.agapea.com/Gema-Algora-Cookinaria-Siguero/Cocina-para-todos-con-Mycook-9788441546790-i.htm" target="_blank">Agapea</a>
+									</div>
+								  </div>
+							</div>
+
+							<div class="col-12 col-md-auto">
+								<a class="btn btn-secondary scrollto w-100" href="#form-section">eBook de muestra</a>
 							</div>
 						</div>
 						<!--//cta-holder-->
@@ -836,13 +860,6 @@
 	<!--//author-section-->
 
 	<footer class="footer"></footer>
-
-	<!-- Javascript -->
-	<script src="assets/plugins/popper.min.js"></script>
-	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/plugins/smoothscroll.min.js"></script>
-
-	<script src="assets/js/main.js"></script>
 
 </body>
 
